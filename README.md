@@ -43,8 +43,6 @@ This project demonstrates a **Selenium WebDriver automation framework** built wi
 
 The framework covers identifying and implementing positive, negative, and functional test scenarios for key hotel application functionalities, with an emphasis on clean architecture, reusable components, and detailed execution reporting.
 
-🎥 **Project Demo:** A video walkthrough of the framework and test execution is available — *(add video link here)*
-
 ---
 
 ## 🏗️ Key Features Implemented
