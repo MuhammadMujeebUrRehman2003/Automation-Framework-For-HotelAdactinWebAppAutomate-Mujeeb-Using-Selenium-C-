@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C10,50:39FF14,100:00FFF5&height=200&section=header&text=🏨%20Hotel%20Booking%20Automation%20Testing&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Java%20%7C%20TestNG%20%7C%20Page%20Object%20Model%20%7C%20QA%20Automation&descSize=17&descAlignY=58&descColor=39FF14" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C10,50:39FF14,100:00FFF5&height=200&section=header&text=🏨%20Hotel%20Booking%20Automation%20Testing&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=C#%20%7C%20TestNG%20%7C%20Page%20Object%20Model%20%7C%20QA%20Automation&descSize=17&descAlignY=58&descColor=39FF14" />
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;Java+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;C#+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
 
 </div>
 
@@ -17,7 +17,7 @@
 <div align="center">
 
 ![Selenium](https://img.shields.io/badge/Selenium-Automation-39FF14?style=for-the-badge&logo=selenium&logoColor=black)
-![Java](https://img.shields.io/badge/Java-Programming-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C#-Programming-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-Testing_Framework-9B59FF?style=for-the-badge)
 ![ExtentReports](https://img.shields.io/badge/ExtentReports-Reporting-FF6F00?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -39,7 +39,7 @@ This project focused on building a **structured, maintainable, and scalable auto
 
 ## 📌 Project Overview
 
-This project demonstrates a **Selenium WebDriver automation framework** built with **Java, TestNG, and the Page Object Model**, applied to a real-world **hotel booking application**.
+This project demonstrates a **Selenium WebDriver automation framework** built with **C#, TestNG, and the Page Object Model**, applied to a real-world **hotel booking application**.
 
 The framework covers identifying and implementing positive, negative, and functional test scenarios for key hotel application functionalities, with an emphasis on clean architecture, reusable components, and detailed execution reporting.
 
@@ -102,7 +102,7 @@ The framework covers identifying and implementing positive, negative, and functi
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,selenium,git,github" />
+<img src="https://skillicons.dev/icons?i=C#,selenium,git,github" />
 
 </div>
 
@@ -113,7 +113,7 @@ The framework covers identifying and implementing positive, negative, and functi
 ```text
 Selenium WebDriver      ████████████████████   90%
 Page Object Model       ████████████████████   90%
-Java Automation         ██████████████████     85%
+C# Automation         ██████████████████     85%
 TestNG Testing          ████████████████       80%
 Test Case Design        ███████████████        75%
 Extent Reporting        ██████████████         70%
@@ -131,7 +131,7 @@ Framework Design:
   ✔ Clean Separation of Concerns
 
 Selenium WebDriver:
-  ✔ Browser Automation with Java
+  ✔ Browser Automation with C#
   ✔ Positive, Negative & Functional Scenario Coverage
   ✔ Test Case Analysis & Automation Strategy
 
