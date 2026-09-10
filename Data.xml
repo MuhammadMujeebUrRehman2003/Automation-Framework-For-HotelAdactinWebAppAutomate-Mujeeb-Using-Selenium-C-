@@ -1,0 +1,2109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Automation>
+
+	<!-- ==================== LOGIN TESTS ==================== -->
+
+	<LoginWithValidCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+	</LoginWithValidCredientials>
+
+	<LoginWithInvalidUsernameandPasswordCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+	</LoginWithInvalidUsernameandPasswordCredientials>
+
+	<LoginWithInvalidUsernameCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS760</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+	</LoginWithInvalidUsernameCredientials>
+
+	<LoginWithInvalidPasswordCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS761</password>
+		<Errormessage>Enter Password</Errormessage>
+	</LoginWithInvalidPasswordCredientials>
+
+	<LoginWithInvalidUsernameandPasswordandClickOnClickherelink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<Errormessage>
+			<![CDATA[
+      <b>Invalid Login details or Your Password might have expired.
+      <a href="http://adactinhotelapp.com/ForgotPassword.php">Click here</a>
+      to reset your password</b>
+    ]]>
+		</Errormessage>
+		<message>Forgot Password Form</message>
+	</LoginWithInvalidUsernameandPasswordandClickOnClickherelink>
+
+	<ClickOnNewUserRegisterherelink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+	</ClickOnNewUserRegisterherelink>
+
+	<LoginWithEmptyCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username></username>
+		<password></password>
+		<Errormessage>Enter Username</Errormessage>
+	</LoginWithEmptyCredientials>
+
+	<LoginPageGotoBuild2>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+	</LoginPageGotoBuild2>
+
+	<LoginPageMailToAdactin>
+		<url>https://adactinhotelapp.com/index.php</url>
+	</LoginPageMailToAdactin>
+
+	<LoginPageIosLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>Testing Apps with TestFlight</message>
+	</LoginPageIosLink>
+
+	<LoginPageAppStoreLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>We're sorry, the requested URL was not found on this server.</message>
+	</LoginPageAppStoreLink>
+
+	<ClickOnLoginPageAdactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+	</ClickOnLoginPageAdactinCoLink>
+
+	<!-- ==================== FORGOT PASSWORD TESTS ==================== -->
+
+	<ForgotPasswordPageAndEnterEmail>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+		<message>Forgot Password Form</message>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>An email has been sent to your email address containing Username and Password. Please check your email.</message2>
+	</ForgotPasswordPageAndEnterEmail>
+
+	<VisitForgotPasswordPageAndReset>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<message>Forgot Password Form</message>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+		<email>muj0007.rehman@gmail.com</email>
+	</VisitForgotPasswordPageAndReset>
+
+	<ReloginThroughForgotPasswordPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+		<message>Forgot Password Form</message>
+		<message2>Existing User Login - Build 1</message2>
+	</ReloginThroughForgotPasswordPage>
+
+	<ClickOnOtherlinksOfForgotPasswordPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2000</username>
+		<password>BFS761</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+		<message>Forgot Password Form</message>
+	</ClickOnOtherlinksOfForgotPasswordPage>
+
+	<ClickonadactinweblinkofForgotPasswordPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS761</password>
+		<Errormessage>
+			<![CDATA[
+      <b>Invalid Login details or Your Password might have expired. 
+      <a href="http://adactinhotelapp.com/ForgotPassword.php">Click here</a> 
+      to reset your password</b>
+    ]]>
+		</Errormessage>
+		<message>Forgot Password Form</message>
+	</ClickonadactinweblinkofForgotPasswordPage>
+
+	<ClickonAdactinCoLinkofForgotPasswordPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS761</password>
+		<Errormessage>Invalid Login details or Your Password might have expired. Click here to reset your password</Errormessage>
+		<message>Forgot Password Form</message>
+	</ClickonAdactinCoLinkofForgotPasswordPage>
+
+	<!-- ==================== REGISTRATION TESTS ==================== -->
+
+	<ResetRegister>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+	</ResetRegister>
+
+	<RegisterWithoutCaptcha>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+	</RegisterWithoutCaptcha>
+
+	<RegisterWithoutUsername>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username></username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>Username is Empty</message2>
+	</RegisterWithoutUsername>
+
+	<RegisterWithoutPassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password></password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>Password is Empty</message2>
+	</RegisterWithoutPassword>
+
+	<RegisterWithoutConfirmPassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword></confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>Confirm Password is Empty</message2>
+	</RegisterWithoutConfirmPassword>
+
+	<RegisterWithoutFullName>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname></fullname>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>Full Name is Empty</message2>
+	</RegisterWithoutFullName>
+
+	<RegisterWithoutEmailAddress>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email></email>
+		<message2>Email Address is Empty</message2>
+	</RegisterWithoutEmailAddress>
+
+	<RegisterWithoutCheck>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<confirmpassword>7458N5</confirmpassword>
+		<fullname>Muhammad Mujeeb Ur Rehman</fullname>
+		<email>muj0007.rehman@gmail.com</email>
+		<message2>You must agree to Terms and Conditions</message2>
+	</RegisterWithoutCheck>
+
+	<RegisterWithEmptyCredientials>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<username></username>
+		<password></password>
+		<confirmpassword></confirmpassword>
+		<fullname></fullname>
+		<email></email>
+		<message2>Username is Empty</message2>
+		<message3>Password is Empty</message3>
+		<message4>Confirm Password is Empty</message4>
+		<message5>Full Name is Empty</message5>
+		<message6>Email Address is Empty</message6>
+		<message7>You must agree to Terms and Conditions</message7>
+	</RegisterWithEmptyCredientials>
+
+	<RegisterToRelogin>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+		<message2>Existing User Login - Build 1</message2>
+	</RegisterToRelogin>
+
+	<VisittheRegisterationPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<message>New User Registration Form</message>
+	</VisittheRegisterationPageandClickOnOtherLinks>
+
+	<ClickonadactinweblinkofRegistration>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS761</password>
+		<Errormessage>
+			<![CDATA[
+      <b>Invalid Login details or Your Password might have expired. 
+      <a href="http://adactinhotelapp.com/ForgotPassword.php">Click here</a> 
+      to reset your password</b>
+    ]]>
+		</Errormessage>
+		<message>New User Registration Form</message>
+	</ClickonadactinweblinkofRegistration>
+
+	<ClickonadactinCoLinkofRegistration>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS761</password>
+		<Errormessage>
+			<![CDATA[
+      <b>Invalid Login details or Your Password might have expired. 
+      <a href="http://adactinhotelapp.com/ForgotPassword.php">Click here</a> 
+      to reset your password</b>
+    ]]>
+		</Errormessage>
+		<message>New User Registration Form</message>
+	</ClickonadactinCoLinkofRegistration>
+
+	<!-- ==================== SEARCH HOTEL TESTS ==================== -->
+
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+	</SelectLocation>
+	<SelectLocation>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+	</SelectLocation>
+
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+	</SelectHotel>
+	<SelectHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+	</SelectHotel>
+
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+	</SelectRoomType>
+	<SelectRoomType>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+	</SelectRoomType>
+
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+		<numberofrooms>- Select Number of Rooms -</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>1 - One</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>2 - Two</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>3 - Three</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>4 - Four</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>5 - Five</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>6 - Six</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>7 - Seven</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>8 - Eight</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+	</SelectNumberOfRooms>
+	<SelectNumberOfRooms>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>10 - Ten</numberofrooms>
+	</SelectNumberOfRooms>
+
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+		<numberofrooms>- Select Number of Rooms -</numberofrooms>
+		<checkindate>01/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>1 - One</numberofrooms>
+		<checkindate>02/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>2 - Two</numberofrooms>
+		<checkindate>03/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>3 - Three</numberofrooms>
+		<checkindate>04/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>4 - Four</numberofrooms>
+		<checkindate>05/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>5 - Five</numberofrooms>
+		<checkindate>06/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>6 - Six</numberofrooms>
+		<checkindate>07/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>7 - Seven</numberofrooms>
+		<checkindate>08/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>8 - Eight</numberofrooms>
+		<checkindate>09/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+	</CheckInDate>
+	<CheckInDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>10 - Ten</numberofrooms>
+		<checkindate>11/04/2026</checkindate>
+	</CheckInDate>
+
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+		<numberofrooms>- Select Number of Rooms -</numberofrooms>
+		<checkindate>01/04/2026</checkindate>
+		<checkoutdate>16/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>1 - One</numberofrooms>
+		<checkindate>02/04/2026</checkindate>
+		<checkoutdate>17/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>2 - Two</numberofrooms>
+		<checkindate>03/04/2026</checkindate>
+		<checkoutdate>18/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>3 - Three</numberofrooms>
+		<checkindate>04/04/2026</checkindate>
+		<checkoutdate>19/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>4 - Four</numberofrooms>
+		<checkindate>05/04/2026</checkindate>
+		<checkoutdate>20/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>5 - Five</numberofrooms>
+		<checkindate>06/04/2026</checkindate>
+		<checkoutdate>21/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>6 - Six</numberofrooms>
+		<checkindate>07/04/2026</checkindate>
+		<checkoutdate>22/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>7 - Seven</numberofrooms>
+		<checkindate>08/04/2026</checkindate>
+		<checkoutdate>23/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>8 - Eight</numberofrooms>
+		<checkindate>09/04/2026</checkindate>
+		<checkoutdate>24/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+	</CheckOutDate>
+	<CheckOutDate>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>10 - Ten</numberofrooms>
+		<checkindate>11/04/2026</checkindate>
+		<checkoutdate>26/04/2026</checkoutdate>
+	</CheckOutDate>
+
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+		<numberofrooms>- Select Number of Rooms -</numberofrooms>
+		<checkindate>01/04/2026</checkindate>
+		<checkoutdate>16/04/2026</checkoutdate>
+		<adultsperroom>- Select Adults per Room -</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>1 - One</numberofrooms>
+		<checkindate>02/04/2026</checkindate>
+		<checkoutdate>17/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>2 - Two</numberofrooms>
+		<checkindate>03/04/2026</checkindate>
+		<checkoutdate>18/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>3 - Three</numberofrooms>
+		<checkindate>04/04/2026</checkindate>
+		<checkoutdate>19/04/2026</checkoutdate>
+		<adultsperroom>3 - Three</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>4 - Four</numberofrooms>
+		<checkindate>05/04/2026</checkindate>
+		<checkoutdate>20/04/2026</checkoutdate>
+		<adultsperroom>4 - Four</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>5 - Five</numberofrooms>
+		<checkindate>06/04/2026</checkindate>
+		<checkoutdate>21/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>6 - Six</numberofrooms>
+		<checkindate>07/04/2026</checkindate>
+		<checkoutdate>22/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>7 - Seven</numberofrooms>
+		<checkindate>08/04/2026</checkindate>
+		<checkoutdate>23/04/2026</checkoutdate>
+		<adultsperroom>3 - Three</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>8 - Eight</numberofrooms>
+		<checkindate>09/04/2026</checkindate>
+		<checkoutdate>24/04/2026</checkoutdate>
+		<adultsperroom>4 - Four</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+	</SelectAdultsPerRoom>
+	<SelectAdultsPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>10 - Ten</numberofrooms>
+		<checkindate>11/04/2026</checkindate>
+		<checkoutdate>26/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+	</SelectAdultsPerRoom>
+
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>- Select Location -</location>
+		<hotelname>- Select Hotel -</hotelname>
+		<roomtype>- Select Room Type -</roomtype>
+		<numberofrooms>- Select Number of Rooms -</numberofrooms>
+		<checkindate>01/04/2026</checkindate>
+		<checkoutdate>16/04/2026</checkoutdate>
+		<adultsperroom>- Select Adults per Room -</adultsperroom>
+		<childrenperroom>0 - None</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>1 - One</numberofrooms>
+		<checkindate>02/04/2026</checkindate>
+		<checkoutdate>17/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>1 - One</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>2 - Two</numberofrooms>
+		<checkindate>03/04/2026</checkindate>
+		<checkoutdate>18/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+		<childrenperroom>2 - Two</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Brisbane</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>3 - Three</numberofrooms>
+		<checkindate>04/04/2026</checkindate>
+		<checkoutdate>19/04/2026</checkoutdate>
+		<adultsperroom>3 - Three</adultsperroom>
+		<childrenperroom>3 - Three</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Adelaide</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>4 - Four</numberofrooms>
+		<checkindate>05/04/2026</checkindate>
+		<checkoutdate>20/04/2026</checkoutdate>
+		<adultsperroom>4 - Four</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>London</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>5 - Five</numberofrooms>
+		<checkindate>06/04/2026</checkindate>
+		<checkoutdate>21/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>0 - None</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>New York</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>6 - Six</numberofrooms>
+		<checkindate>07/04/2026</checkindate>
+		<checkoutdate>22/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+		<childrenperroom>1 - One</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Los Angeles</location>
+		<hotelname>Hotel Hervey</hotelname>
+		<roomtype>Deluxe</roomtype>
+		<numberofrooms>7 - Seven</numberofrooms>
+		<checkindate>08/04/2026</checkindate>
+		<checkoutdate>23/04/2026</checkoutdate>
+		<adultsperroom>3 - Three</adultsperroom>
+		<childrenperroom>2 - Two</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Paris</location>
+		<hotelname>Hotel Cornice</hotelname>
+		<roomtype>Super Deluxe</roomtype>
+		<numberofrooms>8 - Eight</numberofrooms>
+		<checkindate>09/04/2026</checkindate>
+		<checkoutdate>24/04/2026</checkoutdate>
+		<adultsperroom>4 - Four</adultsperroom>
+		<childrenperroom>3 - Three</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+	</SelectChildrenPerRoom>
+	<SelectChildrenPerRoom>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Melbourne</location>
+		<hotelname>Hotel Sunshine</hotelname>
+		<roomtype>Double</roomtype>
+		<numberofrooms>10 - Ten</numberofrooms>
+		<checkindate>11/04/2026</checkindate>
+		<checkoutdate>26/04/2026</checkoutdate>
+		<adultsperroom>2 - Two</adultsperroom>
+		<childrenperroom>0 - None</childrenperroom>
+	</SelectChildrenPerRoom>
+
+	<VisittheSearchHotelPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Search Hotel</message2>
+	</VisittheSearchHotelPage>
+
+	<VisittheSearchHotelPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+	</VisittheSearchHotelPageandClickOnBookItinerary>
+
+	<VisittheSearchHotelPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisittheSearchHotelPageandClickOnChangePassword>
+
+	<VisittheSearchHotelPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>You have successfully logged out.</message2>
+	</VisittheSearchHotelPageandClickOnLogout>
+
+	<VisittheSearchHotelPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+	</VisittheSearchHotelPageandClickOnOtherLinks>
+
+	<VisittheSearchHotelPageandClickonadactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+	</VisittheSearchHotelPageandClickonadactinCoLink>
+
+	<VisittheSearchHotelPageandClickonadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+	</VisittheSearchHotelPageandClickonadactinWebLink>
+
+	<SearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Welcome to Adactin Group of Hotels</message2>
+	</SearchHotel>
+
+	<ResetForm>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+	</ResetForm>
+
+	<SelectTheHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+	</SelectTheHotel>
+
+	<VisitSelectTheHotelPageandClickOnSearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Search Hotel</message3>
+	</VisitSelectTheHotelPageandClickOnSearchHotel>
+
+	<VisitSelectTheHotelPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Booked Itinerary</message3>
+	</VisitSelectTheHotelPageandClickOnBookItinerary>
+
+	<VisitSelectTheHotelPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Change Password</message3>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisitSelectTheHotelPageandClickOnChangePassword>
+
+	<VisitSelectTheHotelPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>You have successfully logged out.</message3>
+	</VisitSelectTheHotelPageandClickOnLogout>
+
+	<VisitSelectTheHotelPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+	</VisitSelectTheHotelPageandClickOnOtherLinks>
+
+	<VisitSelectTheHotelPageandClickonadactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+	</VisitSelectTheHotelPageandClickonadactinCoLink>
+
+	<VisitSelectTheHotelPageandClickonadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+	</VisitSelectTheHotelPageandClickonadactinWebLink>
+
+	<SelectTheHotelandClickonRadioButton>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+	</SelectTheHotelandClickonRadioButton>
+
+	<SelectHotelToContinue>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+	</SelectHotelToContinue>
+
+	<CancelHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+	</CancelHotel>
+
+	<BookHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+	</BookHotel>
+
+	<VisitBookHotelPageandClickOnSearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<message4>Search Hotel</message4>
+	</VisitBookHotelPageandClickOnSearchHotel>
+
+	<VisitBookHotelPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<message4>Booked Itinerary</message4>
+	</VisitBookHotelPageandClickOnBookItinerary>
+
+	<VisitBookHotelPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<message4>Change Password</message4>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisitBookHotelPageandClickOnChangePassword>
+
+	<VisitBookHotelPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<message4>You have successfully logged out.</message4>
+	</VisitBookHotelPageandClickOnLogout>
+
+	<VisitBookHotelPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+	</VisitBookHotelPageandClickOnOtherLinks>
+
+	<VisitBookHotelPageandClickOnadactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+	</VisitBookHotelPageandClickOnadactinCoLink>
+
+	<VisitBookHotelPageandClickOnadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+	</VisitBookHotelPageandClickOnadactinWebLink>
+
+	<CancelHotelBooking>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<message4>Select Hotel</message4>
+	</CancelHotelBooking>
+
+	<SearchingHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Search Hotel</message5>
+	</SearchingHotel>
+
+	<VisitBookingConfirmationPageandClickOnSearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Search Hotel</message5>
+	</VisitBookingConfirmationPageandClickOnSearchHotel>
+
+	<VisitBookingConfirmationPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Booked Itinerary</message5>
+	</VisitBookingConfirmationPageandClickOnBookItinerary>
+
+	<VisitBookingConfirmationPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Change Password</message5>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisitBookingConfirmationPageandClickOnChangePassword>
+
+	<VisitBookingConfirmationPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>You have successfully logged out.</message5>
+	</VisitBookingConfirmationPageandClickOnLogout>
+
+	<VisitBookingConfirmationPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+	</VisitBookingConfirmationPageandClickOnOtherLinks>
+
+	<VisitBookingConfirmationPageandClickOnadactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+	</VisitBookingConfirmationPageandClickOnadactinCoLink>
+
+	<VisitBookingConfirmationPageandClickOnadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+	</VisitBookingConfirmationPageandClickOnadactinWebLink>
+
+	<MyItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Booked Itinerary</message5>
+	</MyItinerary>
+
+	<Logout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>You have successfully logged out.</message5>
+	</Logout>
+
+	<MyItinerarySearchThroughOrderId>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Booked Itinerary</message5>
+	</MyItinerarySearchThroughOrderId>
+
+	<MyItineraryCancelSelection>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booked Itinerary</message4>
+	</MyItineraryCancelSelection>
+
+	<MyItinerarySearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Booked Itinerary</message5>
+	</MyItinerarySearchHotel>
+
+	<MyItineraryLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<location>Sydney</location>
+		<hotelname>Hotel Creek</hotelname>
+		<roomtype>Standard</roomtype>
+		<numberofrooms>9 - Nine</numberofrooms>
+		<checkindate>10/04/2026</checkindate>
+		<checkoutdate>25/04/2026</checkoutdate>
+		<adultsperroom>1 - One</adultsperroom>
+		<childrenperroom>4 - Four</childrenperroom>
+		<message2>Select Hotel</message2>
+		<message3>Book A Hotel</message3>
+		<firstname>Muhammad</firstname>
+		<lastname>Rehman</lastname>
+		<billingaddress>D-221 Block 4 Metroville Site Area Karachi</billingaddress>
+		<creditcardno>0000000000000000</creditcardno>
+		<creditcardtype>VISA</creditcardtype>
+		<month>November</month>
+		<year>2025</year>
+		<cvvnumber>1234</cvvnumber>
+		<message4>Booking Confirmation</message4>
+		<message5>Booked Itinerary</message5>
+	</MyItineraryLogout>
+
+	<VisittheBookItineraryPageandClickOnSearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+		<message3>Search Hotel</message3>
+	</VisittheBookItineraryPageandClickOnSearchHotel>
+
+	<VisittheBookItineraryPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+	</VisittheBookItineraryPageandClickOnBookItinerary>
+
+	<VisittheBookItineraryPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+		<message3>Change Password</message3>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisittheBookItineraryPageandClickOnChangePassword>
+
+	<VisittheBookItineraryPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+		<message3>You have successfully logged out.</message3>
+	</VisittheBookItineraryPageandClickOnLogout>
+
+	<VisittheBookItineraryPageandClickonadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Booked Itinerary</message2>
+	</VisittheBookItineraryPageandClickonadactinWebLink>
+
+	<VisittheChangePasswordPageandClickOnSearchHotel>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+		<message3>Search Hotel</message3>
+	</VisittheChangePasswordPageandClickOnSearchHotel>
+
+	<VisittheChangePasswordPageandClickOnBookItinerary>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+		<message3>Booked Itinerary</message3>
+	</VisittheChangePasswordPageandClickOnBookItinerary>
+
+	<VisittheChangePasswordPageandClickOnChangePassword>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+		<currentpassword>7458N5</currentpassword>
+		<newpassword>adactin2004</newpassword>
+		<confirmpassword>adactin2004</confirmpassword>
+	</VisittheChangePasswordPageandClickOnChangePassword>
+
+	<VisittheChangePasswordPageandClickOnLogout>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+		<message3>You have successfully logged out.</message3>
+	</VisittheChangePasswordPageandClickOnLogout>
+
+	<VisittheChangePasswordPageandClickOnOtherLinks>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+	</VisittheChangePasswordPageandClickOnOtherLinks>
+
+	<VisittheChangePasswordPageandClickonadactinCoLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+	</VisittheChangePasswordPageandClickonadactinCoLink>
+
+	<VisittheChangePasswordPageandClickonadactinWebLink>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message>Welcome to Adactin Group of Hotels</message>
+		<message2>Change Password</message2>
+	</VisittheChangePasswordPageandClickonadactinWebLink>
+
+	<ReloginTheLoginPage>
+		<url>https://adactinhotelapp.com/index.php</url>
+		<username>adactin2003</username>
+		<password>BFS760</password>
+		<message1>Welcome to Adactin Group of Hotels</message1>
+		<message2>Existing User Login - Build 1</message2>
+	</ReloginTheLoginPage>
+
+</Automation>
