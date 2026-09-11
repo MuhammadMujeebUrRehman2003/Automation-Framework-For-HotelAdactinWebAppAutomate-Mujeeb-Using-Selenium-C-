@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;CSharp+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;C#+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
 
 </div>
 
