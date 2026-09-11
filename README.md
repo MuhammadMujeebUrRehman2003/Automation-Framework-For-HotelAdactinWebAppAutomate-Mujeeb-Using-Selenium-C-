@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C10,50:39FF14,100:00FFF5&height=200&section=header&text=🏨%20Hotel%20Booking%20Automation%20Testing&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=C#%20%7C%20TestNG%20%7C%20Page%20Object%20Model%20%7C%20QA%20Automation&descSize=17&descAlignY=58&descColor=39FF14" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080C10,50:39FF14,100:00FFF5&height=200&section=header&text=🏨%20Hotel%20Booking%20Automation%20Testing&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=C%23%20%7C%20TestNG%20%7C%20Page%20Object%20Model%20%7C%20QA%20Automation&descSize=17&descAlignY=58&descColor=39FF14" />
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;C#+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=950&lines=Hotel+Booking+Automation+Testing+Framework+%F0%9F%A4%96;Automating+Key+Hotel+Application+Workflows;C%23+%2B+TestNG+%2B+Page+Object+Model;Robust+%26+Scalable+Test+Automation+Practices;ExtentReports+%7C+Reusable+Utilities+%7C+POM" alt="Typing SVG" />
 
 </div>
 
